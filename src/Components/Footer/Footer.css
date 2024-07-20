@@ -1,0 +1,86 @@
+.footer { 
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 15px; 
+    background-color: #98c1d9; 
+  } 
+   
+  .upper-footer { 
+    height: 12rem; 
+  } 
+   
+  .logo-section { 
+    display: flex; 
+    margin-bottom: 10px; 
+  } 
+   
+  .footer-logo { 
+    width: 50px; 
+    height: 50px; 
+    margin-left: 180px; 
+    margin-top: 40px; 
+  } 
+   
+  .footer-name { 
+    font-family: "Barlow", sans-serif; 
+    font-size: 38px; 
+    margin-top: 43px; 
+    margin-left: 15px; 
+  } 
+   
+  .footer-tagline { 
+    font-family: "Barlow", sans-serif; 
+    margin-left: 180px; 
+    font-size: 20px; 
+    width: 250px; 
+    font-weight: 600; 
+  } 
+   
+  .upper-footer { 
+    display: flex; 
+  } 
+   
+  .upper-footer-content { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 150px; 
+  } 
+   
+  .upper-footer-content a { 
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    font-family: "Barlow", sans-serif; 
+    margin: 40px; 
+    font-weight: 600; 
+  } 
+  .testing { 
+    display: flex; 
+    flex-direction: column; 
+  } 
+   .footer-gif{
+    margin-left: 70px;
+    border-radius: 50%;
+   }
+  .lower-footer { 
+    height: 50px; 
+    background-color: #293241; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    font-size: 25px; 
+    /* letter-spacing: 0.15rem; */ 
+    font-family: "Barlow", sans-serif; 
+  } 
+  .lower-footer-content-outer { 
+    display: flex; 
+  } 
+  .htm-img-footer { 
+    margin-left: 10px;
+     
+  }
+  
+  

@@ -1,0 +1,134 @@
+.relax-container { 
+    position: relative; 
+  } 
+  .relax-heading { 
+    position: absolute; 
+    top: 28%; 
+    left: 55%; 
+    transform: translate(-50%, -50%); 
+    font-family: "Merienda", cursive; 
+    font-size: 55px; 
+    color: wheat; 
+  } 
+   
+  .lower-container { 
+    display: flex; 
+  } 
+  .lower-container-left { 
+    flex: 2; 
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 30px; 
+  } 
+  .lower-left1-head { 
+    margin-top: 40px; 
+    margin-left: 185px; 
+    font-size: 50px; 
+    color: rgb(189, 141, 53); 
+    font-family: "Merienda", cursive; 
+  } 
+   
+  .lower-left1-img { 
+    margin-left: 77px; 
+  } 
+   
+  .lower-left2-head { 
+    margin-top: 100px; 
+    margin-left: 75px; 
+    font-size: 50px; 
+    color: rgb(189, 141, 53); 
+    font-family: "Merienda", cursive; 
+  } 
+  .lower-left2-img { 
+    margin-left: 77px; 
+  } 
+  .lower-container-right { 
+    flex: 6; 
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 40px; 
+    margin-top: 40px; 
+    background-color: wheat; 
+    margin-bottom: 30px; 
+  } 
+   
+  .to-do-head { 
+    font-size: 50px; 
+    color: rgb(189, 141, 53); 
+    font-family: "Merienda", cursive; 
+    margin-top: 24%; 
+    margin-bottom: 25px; 
+  } 
+  .input { 
+    width: 60%; 
+    height: 13%; 
+  } 
+  #myInput { 
+    width: 60%; 
+    height: 13%; 
+    border-radius: 18px 0px 0px 18px; 
+    padding: 13px; 
+    font-size: 20px; 
+  } 
+  #myInput:focus{
+    outline: none;
+  }
+  #to-do-form { 
+    margin-left: 122px; 
+    width: 600px; 
+  } 
+  .todo-input-bar { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  } 
+  .addBtn { 
+    font-size: 20px; 
+    padding: 13.5px 46px; 
+    border-radius: 0px 18px 18px 0px; 
+  } 
+   
+  ul { 
+    margin: 15px; 
+    padding: 15px; 
+  } 
+   
+  ul li { 
+    cursor: pointer; 
+    position: relative; 
+    padding: 12px 8px 12px 40px; 
+    list-style-type: none; 
+    background: #fceedc; 
+    font-size: 18px; 
+    transition: 0.2s; 
+  } 
+  ul li:nth-child(odd) { 
+    background: #f5e0ce; 
+  } 
+   
+  ul li:hover { 
+    background: #e8c4b5; 
+  } 
+   
+  ul li.checked { 
+    background: #edd1c0; 
+    color: white; 
+    text-decoration: line-through; 
+  } 
+  ul li.checked::before { 
+    content: ""; 
+    position: absolute; 
+    border-color: white; 
+    border-style: solid; 
+    border-width: 0 2px 2px 0; 
+    top: 10px; 
+    left: 16px; 
+    transform: rotate(45deg); 
+    height: 15px; 
+    width: 7px; 
+  } 
+   
+  .close:hover { 
+    background-color: #f44336; 
+    color: white; 
+  }
